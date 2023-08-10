@@ -6,9 +6,6 @@ M.general = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
     ["<C-a>"] = { "gg<S-v>G", "copy all" },
   },
-  i = {
-    ["jj"] = { "<ESC>", "escape insert mode", opts = { nowait = true } },
-  },
 }
 
 M.window = {

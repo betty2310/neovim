@@ -46,6 +46,10 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
+  {
+    "github/copilot.vim",
+    lazy = false,
+  }
 
   -- To make a plugin not be loaded
   -- {
